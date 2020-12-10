@@ -107,6 +107,13 @@ hr
     margin: auto;
 }
 
+.img-hero
+{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
 .hero .hero-heading
 {
     text-align: center;

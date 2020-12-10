@@ -166,10 +166,17 @@ hr
     padding-inline-start: 0px;
 }
 
-.showcase-list {
+.showcase-list
+{
     padding: 2rem;
 }
 
-.showcase-blog {
+.showcase-blog
+{
     padding-bottom: 6rem;
+}
+
+.class
+{
+    font-weight: bold;
 }

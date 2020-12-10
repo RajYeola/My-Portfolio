@@ -180,5 +180,10 @@ hr
 {
     font-weight: bold;
     margin: auto;
-    padding-left: 10rem;
+    padding: 0.5rem;
+}
+
+.quote
+{
+    padding-bottom: 2rem;
 }

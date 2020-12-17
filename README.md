@@ -1,2 +1,2 @@
-# I'm Raj Yeola
-I will be styling my portfolio by friday!
+# My Portfolio
+This is my portfolio website and I'll be updating this with my projects and blogs.

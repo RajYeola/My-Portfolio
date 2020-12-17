@@ -15,9 +15,8 @@
     margin: 0px;
 }
 
-.body-blog
+.body-blog1
 {
-    font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 
@@ -102,6 +101,11 @@ hr
     font-weight: bold;
 } 
 
+.navigation-blog1
+{
+    font-family: font-family: 'Montserrat', sans-serif;
+}
+
 .hero
 {
     padding: 2rem;
@@ -132,6 +136,11 @@ hr
 .hero .hero-heading .heading-inverted
 {
     color : var(--primary-color);
+}
+
+.font-blog1
+{
+    font-family: 'Roboto', sans-serif;
 }
 
 .section
@@ -174,6 +183,11 @@ hr
     padding-inline-start: 0px;
 }
 
+.footer-blog1
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .showcase-list {
     padding: 2rem;
 }
@@ -184,7 +198,6 @@ hr
 
 .quote
 {
-    font-weight: bold;
     margin: auto;
     padding: 0.5rem;
 }

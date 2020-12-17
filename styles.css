@@ -103,7 +103,7 @@ hr
 
 .navigation-blog1
 {
-    font-family: font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hero
@@ -186,6 +186,11 @@ hr
 .footer-blog1
 {
     font-family: 'Montserrat', sans-serif;
+}
+
+.footer-img
+{
+    max-width: 50px;
 }
 
 .showcase-list {

@@ -188,6 +188,11 @@ hr
     font-family: 'Montserrat', sans-serif;
 }
 
+.footer-icons
+{
+    max-width: 100px;
+}
+
 .showcase-list {
     padding: 2rem;
 }

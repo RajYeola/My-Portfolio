@@ -4,9 +4,9 @@
 
 :root
 {
-    --primary-color: #7C3AED;
-    --dark-gray: #6B7280;
-    --off-white: #F3F4F6;
+    --primary-color: #DC2626;
+    --header-footer: black;
+    --light-pink:#FEF3C7;
 }
 
 .body-index
@@ -53,6 +53,11 @@ hr
     margin: 1rem 1rem 1rem 0rem;
 }
 
+.link-primary:hover
+{
+    background-color: black;
+}
+
 .link-secondary
 {
     color: var(--primary-color);
@@ -61,6 +66,11 @@ hr
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+}
+
+.link-secondary:hover
+{
+    background-color: black;
 }
 
 .list-non-bullet
@@ -77,14 +87,16 @@ hr
 .navigation
 {
     background-color: var(--primary-color);
-    color : white;
+    color : var(--header-footer);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand
 {
+    font-size: x-large;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .navigation .nav-pills
@@ -93,12 +105,14 @@ hr
 }
 .navigation .link
 {
-    color: white;
+    color: var(--header-footer);
+    font-size: large;
+    letter-spacing: 0.5px;
 }
 
 .navigation .link-active
 {
-    font-weight: bold;
+    font-weight: bolder;
 } 
 
 .navigation-blog1
@@ -130,7 +144,7 @@ hr
 {
     text-align: center;
     padding-top: 1rem;
-    color: var(--dark-gray);
+    color: var(--header-footer);
 }
 
 .hero .hero-heading .heading-inverted
@@ -155,7 +169,7 @@ hr
 
 .ow
 {
-    background-color: var(--off-white);
+    background-color: var(--light-pink);
 }
 
 .footer
@@ -163,14 +177,16 @@ hr
     background-color: var(--primary-color);
     padding: 4rem 1rem;
     text-align: center;
-    color: white;
+    color: var(--header-footer);
     border-top-right-radius: 1rem;
 }
 
 .footer .footer-header
 {
     font-weight: bold;
-    font-size: large;
+    font-size: x-large;
+    padding-bottom: 0.5rem;
+    letter-spacing: 1px;
 }
 
 .footer .link
@@ -190,7 +206,8 @@ hr
 
 .footer-icons
 {
-    max-width: 25px;
+    max-width: 32px;
+    padding: 0rem 2rem;
 }
 
 .showcase-list {

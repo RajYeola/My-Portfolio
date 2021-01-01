@@ -6,7 +6,7 @@
 {
     --primary-color: #DC2626;
     --header-footer: black;
-    --light-pink:#FEF3C7;
+    --light-pink:#FDF2F8;
 }
 
 .body-index
@@ -71,6 +71,13 @@ hr
 .link-secondary:hover
 {
     background-color: black;
+}
+
+.link-camp
+{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 .list-non-bullet

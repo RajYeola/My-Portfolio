@@ -9,10 +9,14 @@
     --light-pink:#FDF2F8;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .body-index
 {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
 }
 
 .body-blog1
@@ -269,9 +273,9 @@ hr
     margin: 0.5rem auto;
 }
 
-@media(max-width:500px){
+/* @media(max-width:500px){
     body{
         padding: 0;
         margin: 0 auto;
     }    
-}
+} */

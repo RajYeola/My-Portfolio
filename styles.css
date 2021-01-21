@@ -4,7 +4,7 @@
 
 :root
 {
-    --primary-color: #dc2626;
+    --primary-color: #DC2626;
     --header-footer: black;
     --light-pink:#FDF2F8;
 }
@@ -28,27 +28,12 @@ hr
 .container
 {
     padding: 0rem 1rem;
-    margin: 0 auto;
 }
 
 .container-center
 {
     max-width: 600px;
     margin: auto;
-}
-
-.flex{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.grid{
-    display: grid;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
 }
 
 .link
@@ -68,7 +53,7 @@ hr
     margin: 1rem 1rem 1rem 0rem;
 }
 
-.link-primary:hover
+.link-primary:hover, .link-secondary:hover
 {
     background-color: black;
 }
@@ -83,9 +68,8 @@ hr
     margin: 1rem 1rem 1rem 0rem;
 }
 
-.link-secondary:hover
-{
-    background-color: black;
+.link-primary, .link-secondary{
+    transition: all 0.3s;
 }
 
 .link-camp
@@ -191,7 +175,6 @@ hr
 .section
 {
     padding : 2rem;
-    position: relative;
 }
 
 .section h1
@@ -199,29 +182,10 @@ hr
     text-align: center;
 }
 
-.section .grid{
-    max-width: 600px;
-    justify-self: center;
-    align-items: center;
-}
-
-.section .container{
-    margin: auto;
-}
-
-.card{
-    background-color: var(--light-pink);
-    color: var(--header-footer);
-    border-radius: 10px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin: 10px;
-}
-
-/* .ow
+.ow
 {
     background-color: var(--light-pink);
-} */
+}
 
 .footer
 {
@@ -280,6 +244,34 @@ hr
     padding-bottom: 2rem;
 }
 
-.m-bot{
-    margin-bottom: 2rem;
+.card{
+    background-color: var(--light-pink);
+    color: var(--header-footer);
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    /* line-height: 1.2rem;
+    word-spacing: 1px; */
+}
+
+.section .card{
+    max-width: 600px;
+    margin: auto;
+}
+
+.card .link{
+    margin: auto;
+}
+
+.showcase-list .link-primary{
+    margin: 0.5rem auto;
+}
+
+@media(max-width:500px){
+    body{
+        padding: 0;
+        margin: 0 auto;
+    }    
 }
